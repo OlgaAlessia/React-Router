@@ -1,0 +1,18 @@
+.NavBar{
+    background-color: #718cdd;
+    padding: 20px 0px;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.NavBar a{
+    margin: 20px;
+}
+
+.NavBar a, .NavBar a:active{
+    color: white;
+}
+
+.NavBar a:hover{
+    color: #061a41;
+}

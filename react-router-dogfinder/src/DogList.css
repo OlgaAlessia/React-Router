@@ -1,0 +1,54 @@
+.DogList-wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.DogList-card {
+    border: 0px solid aqua;
+    margin: 0.5rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    flex: 1;
+    min-width: 390px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+
+.DogList-card-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.DogList-card-text-wrapper {
+    position: absolute;
+    bottom: 0rem;
+    padding: 1rem;
+    color: white;
+    /*     background-color: rgba(0, 0, 0, 0.4); */
+    transition: background-color 1.5s ease;
+}
+
+.DogList-card-title {
+    text-decoration: none;
+    transition: color 1s ease;
+    margin-bottom: .5rem;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.DogList-card-title, .DogList-card-title a:active{
+    color: white;
+}
+
+.DogList-card-title:hover{
+    color: #061a41;
+}
+
